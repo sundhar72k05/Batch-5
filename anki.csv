@@ -1,0 +1,55 @@
+city,state,zip,city_pop,job,age,profile,trans_date,trans_time,category,amt,is_fraud,merchant
+Elkridge,MD,21075,26344,Lawyer,41,adults_2550_female_urban.json,27-01-2020,6,health_fitness,4,0,fraud_Swaniawski
+Vine Grove,KY,40175,13070,Broadcast journalist,21,adults_2550_female_urban.json,20-09-2018,7,shopping_net,4,0,fraud_Fisher-Schowalter
+North Tonawanda,NY,14120,45100,Recycling officer,39,adults_2550_female_urban.json,29-06-2018,5,misc_pos,4,0,fraud_Turcotte-Halvorson
+Kensington,MD,20895,19054,Fisheries officer,37,adults_2550_female_urban.json,19-04-2019,8,shopping_pos,4,0,fraud_Hickle Group
+Monticello,GA,31064,9450,Management consultant,42,adults_2550_female_urban.json,4/3/2020,8,home,4,0,fraud_Stark-Koss
+Newtown Square,PA,19073,18332,Television floor manager,19,young_adults_female_urban.json,6/7/2019,6,entertainment,4,0,fraud_Fadel
+Saginaw,MI,48601,135669,Best boy,40,adults_2550_female_urban.json,16-08-2020,5,kids_pets,4,0,fraud_Nolan-Williamson
+Ball,LA,71405,5592,Software engineer,41,adults_2550_male_urban.json,3/11/2019,5,food_dining,4,0,fraud_Kuphal-Toy
+Homestead,FL,33030,155317,Phytotherapist,29,adults_2550_female_urban.json,30-01-2020,6,health_fitness,4,0,fraud_Fritsch and Sons
+Kosciusko,MS,39090,13398,Emergency planning/management officer,18,young_adults_female_urban.json,31-05-2020,5,home,4,0,fraud_Windler
+Hemet,CA,92543,117746,Professor Emeritus,30,adults_2550_female_urban.json,26-11-2020,5,personal_care,4,0,fraud_Bartoletti and Sons
+Auburn,WA,98092,103374,Quarry manager,61,adults_50up_female_urban.json,19-07-2020,7,kids_pets,4,0,fraud_Brown Inc
+Oxford,MS,38655,36699,Health visitor,41,adults_2550_female_urban.json,4/5/2019,6,shopping_pos,4,0,fraud_Hermann and Sons
+Kosciusko,MS,39090,13398,Emergency planning/management officer,18,young_adults_female_urban.json,24-10-2019,7,food_dining,4,0,fraud_Bahringer-Streich
+Newark,NJ,7103,277237,Airline pilot,18,young_adults_male_urban.json,12/12/2019,8,food_dining,4,0,fraud_Runte-Mohr
+Elsie,NE,69134,364,Medical secretary,55,adults_50up_male_rural.json,16-06-2020,6,home,4,0,fraud_Quitzon-Goyette
+Etowah,TN,37331,7656,Chief Financial Officer,18,young_adults_female_urban.json,7/2/2019,6,shopping_pos,4,0,fraud_Stoltenberg-Beatty
+Karnak,IL,62956,869,Call centre manager,58,adults_50up_female_rural.json,13-06-2020,5,home,4,0,fraud_Quitzon-Goyette
+Karnak,IL,62956,869,Call centre manager,57,adults_50up_female_rural.json,6/8/2019,5,food_dining,4,0,fraud_Bahringer-Streich
+Graham,KY,42344,856,Emergency planning/management officer,52,adults_50up_female_rural.json,16-08-2019,7,food_dining,4,0,fraud_Volkman PLC
+Freeport,NY,11520,43341,Surgeon,33,adults_2550_female_urban.json,7/11/2020,5,kids_pets,4,0,fraud_Hammes-Beatty
+Harrison,TN,37341,12085,Patent examiner,23,adults_2550_male_urban.json,13-10-2020,7,kids_pets,4,0,fraud_Berge-Hills
+Pantego,NC,27860,2246,Hydrographic surveyor,31,adults_2550_female_rural.json,19-12-2019,7,health_fitness,4,0,fraud_Fadel-Hilpert
+Miami,FL,33133,1737737,Medical laboratory scientific officer,44,adults_2550_male_urban.json,22-02-2020,5,health_fitness,4,0,fraud_Torphy-Kertzmann
+Crossville,TN,38572,50276,Counsellor,60,adults_50up_female_urban.json,20-12-2020,8,personal_care,4,0,fraud_Leffler-Goldner
+Ball,LA,71405,5592,Software engineer,42,adults_2550_male_urban.json,8/9/2020,5,kids_pets,4,0,fraud_Lang
+Homewood,IL,60430,20094,Scientific laboratory technician,20,young_adults_male_urban.json,13-03-2020,6,health_fitness,4,0,fraud_Kub-Heaney
+Pantego,NC,27860,2246,Hydrographic surveyor,32,adults_2550_female_rural.json,2/4/2021,5,travel,4,0,fraud_Satterfield-Lowe
+Houston,TX,77070,2906700,IT sales professional,25,adults_2550_female_urban.json,13-09-2018,7,shopping_net,4,0,fraud_Schmidt and Sons
+Kensington,MD,20895,19054,Fisheries officer,37,adults_2550_female_urban.json,17-07-2019,5,entertainment,4,0,fraud_Reichel Inc
+Miami,FL,33133,1737737,Medical laboratory scientific officer,45,adults_2550_male_urban.json,27-03-2021,6,travel,4,0,fraud_Treutel-King
+Hemet,CA,92543,117746,Professor Emeritus,28,adults_2550_female_urban.json,5/5/2019,7,shopping_pos,4,0,fraud_Haley
+Lawrenceville,GA,30044,228867,Agricultural engineer,23,adults_2550_female_urban.json,3/8/2018,6,shopping_net,4,0,fraud_Mosciski
+Pomona,CA,91768,154204,Recycling officer,33,adults_2550_male_urban.json,12/12/2019,8,food_dining,4,0,fraud_Langosh
+Alexandria,VA,22307,321490,Passenger transport manager,60,adults_50up_male_urban.json,17-05-2020,6,home,4,0,fraud_Cole
+Ozone Park,NY,11417,53828,Retail buyer,36,adults_2550_male_urban.json,11/3/2019,8,shopping_pos,4,0,fraud_Pagac LLC
+Fremont,CA,94538,214112,Electronics engineer,54,adults_50up_male_urban.json,1/4/2019,1,entertainment,4,0,fraud_Schroeder
+Hillsboro,IL,62049,8470,Speech and language therapist,19,young_adults_female_urban.json,22-11-2019,8,food_dining,4,0,fraud_Feil
+Durango,CO,81301,36051,Comptroller,57,adults_50up_male_urban.json,4/11/2020,6,personal_care,4,0,fraud_Becker
+San Mateo,CA,94402,131801,Paediatric nurse,30,adults_2550_female_urban.json,13-08-2020,7,kids_pets,4,0,fraud_Hauck
+Pomona,CA,91768,154204,Recycling officer,33,adults_2550_male_urban.json,5/1/2020,6,health_fitness,4,0,fraud_Hills
+Saint Louis,MO,63122,927396,Maintenance engineer,42,adults_2550_female_urban.json,5/7/2018,5,shopping_net,4,0,fraud_Goyette Inc
+Canton,GA,30114,85446,Tax inspector,26,adults_2550_female_urban.json,15-12-2019,7,health_fitness,4,0,fraud_Fritsch and Sons
+Arvada,CO,80003,122111,Sports development officer,35,adults_2550_male_urban.json,9/7/2020,6,home,4,0,fraud_Moore
+Alexandria,VA,22307,321490,Passenger transport manager,61,adults_50up_male_urban.json,30-01-2021,5,personal_care,4,0,fraud_Sporer-Keebler
+Newtown Square,PA,19073,18332,Television floor manager,20,young_adults_female_urban.json,31-01-2020,5,health_fitness,4,0,fraud_Runte
+Urbana,IL,61802,49989,Systems analyst,19,young_adults_female_urban.json,25-04-2020,7,home,4,0,fraud_Lynch-Wisozk
+Wapanucka,OK,73461,795,Editorial assistant,46,adults_2550_female_rural.json,17-08-2020,8,kids_pets,4,0,fraud_Bernier and Sons
+Seffner,FL,33584,25392,Associate Professor,44,adults_2550_female_urban.json,8/3/2019,7,shopping_pos,4,0,fraud_Schuppe
+Athens,PA,18810,6162,Press sub,33,adults_2550_male_urban.json,25-12-2019,5,health_fitness,4,0,fraud_Cronin
+Annandale,MN,55302,7107,Architect,62,adults_50up_female_urban.json,26-06-2020,8,kids_pets,4,0,fraud_Schaefer Ltd
+Fort Plain,NY,13339,6941,Bonds trader,78,adults_50up_male_urban.json,18-10-2019,8,health_fitness,4,0,fraud_Roob-Okuneva
+Penitas,TX,78576,8775,IT sales professional,37,adults_2550_male_urban.json,26-03-2021,5,travel,4,0,fraud_Kessler Group
+Pomona,CA,91768,154204,Recycling officer,34,adults_2550_male_urban.json,5/12/2020,6,kids_pets,4,0,fraud_Lang
