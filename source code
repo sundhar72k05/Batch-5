@@ -1,0 +1,65 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.preprocessing import StandardScaler
+from sklearn.cluster import KMeans
+from sklearn.ensemble import IsolationForest
+from google.colab import files
+
+# Upload the CSV file manually
+uploaded = files.upload()
+
+# Read the uploaded file
+for file_name in uploaded.keys():
+    df = pd.read_csv(file_name)
+    print(f"\nLoaded: {file_name}")
+
+# Inspect data
+print("First few rows:")
+print(df.head())
+print("\nInfo:")
+print(df.info())
+
+# Handle missing values
+df = df.dropna()
+
+# Convert date column if it exists
+if 'date' in df.columns:
+    df['date'] = pd.to_datetime(df['date'])
+
+# Encode categorical features
+df_encoded = pd.get_dummies(df, drop_first=True)
+
+# Visualization: Total amount over time
+if 'date' in df.columns and 'Amount' in df.columns:
+    df.set_index('date')['Amount'].resample('M').sum().plot()
+    plt.title("Monthly Transaction Volume")
+    plt.ylabel("Total Amount")
+    plt.xlabel("Date")
+    plt.show()
+
+# Clustering: Customer behavior profiling
+if 'Amount' in df.columns:
+    X = df_encoded.select_dtypes(include='number')
+    scaler = StandardScaler()
+    X_scaled = scaler.fit_transform(X)
+
+    kmeans = KMeans(n_clusters=3, random_state=42)
+    df['cluster'] = kmeans.fit_predict(X_scaled)
+
+    # Plot clusters
+    sns.scatterplot(x=df['Amount'], y=df['cluster'], hue=df['cluster'], palette="Set2")
+    plt.title("Customer Clusters by Transaction Amount")
+    plt.xlabel("Amount")
+    plt.ylabel("Cluster")
+    plt.show()
+
+    # Fraud Detection using Isolation Forest
+    iso = IsolationForest(contamination=0.01, random_state=42)
+    df['is_fraud'] = iso.fit_predict(X_scaled)
+    df['is_fraud'] = df['is_fraud'].map({1: 0, -1: 1})  # 1 = Fraudulent
+
+    print("\nPotential Fraudulent Transactions:")
+    print(df[df['is_fraud'] == 1])
+else:
+    print("Column 'Amount' not found for clustering and fraud
